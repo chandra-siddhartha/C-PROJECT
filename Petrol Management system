@@ -1,0 +1,144 @@
+Algorithm
+Step 1:Enter the variables which we are used
+Step 2: enter 5 printf statements for choosing the options
+Step 3: use switch case to work on each module
+Step 4: case 1- To refil the petrol
+        Case 2- To refil the Diesel
+        Case 3- To refil the CNG
+        Case 4- To Tyre Inflator
+        case 5- To service the vechical
+#include<stdio.h>
+int main(){
+printf("\t  Petrol Pump\n");
+printf("\t ");
+printf("\n \n\n");
+printf("\n");
+int a,b,c,d,e,f,g,h,i,j,k,l,m;
+char ch;
+printf("\t \t * If scooter/any other two wheelers press 1 for petrol\n");
+printf("\t \t *If car/any other four wheelers press2 for Diesel \n");
+printf("\t \t *If any Gas vehicals press 3 for CNG\n");
+printf("\t \t *press 4 for tyre inflator\n");
+printf("\t \t *press 5 for service \n");
+printf("\t \t \n");
+printf("\n");
+scanf("%d",&a);
+switch(a){
+case 1:printf("\n\n");
+printf("1 litre petrol =Rs 75.00\n");
+printf("How much litre You Want\n");
+printf("\n");
+scanf("%d",&b);
+c=b*75.00;
+printf("\n");
+printf("Your Bill is %d\n",c);
+printf("\n");
+printf("How Would you like to pay\n");
+printf("\t *Press 1 for cash\n");
+printf("\t *press 2 for card\n");
+scanf("%d",&d);
+if(d==1){
+printf("\n");
+printf("Payment Paid\n");
+printf("THANKS FOR COMING\n");
+}
+else if(d==2){
+    printf("Swipe your card\n");
+    printf("ENTER THE PIN: ");
+    scanf("%d",&h);
+    printf("\n");
+    printf("payment paid\n");
+    printf("THANKS FOR COMING\n");
+    
+}
+    break;
+    case 2:printf("Price of Diesel is RS 90.00 per litre\n");
+    printf("How much litre of diesel you want\n");
+    scanf("%d",&c);
+    i=c*90.00;
+    printf("\n");
+    printf("Your Bill Is %d\n",i);
+    printf("\n");
+    printf("How Would You Like To Pay\n");
+    printf("*Press 1 for CASH\n *Press 2 for CARD\n");
+    scanf("%d",&e);
+    if (e==1)
+    printf("payment success\n Thanks For Coming\n");
+    else if(e==2)
+    {
+        printf("Swipe Your Card\n");
+          printf("ENTER THE PIN: ");
+          scanf("%d",&h);
+        printf("Payment Paid\n");
+        printf("THANKS FOR COMING\n");
+        }
+        break;
+    case 3:printf("Price of CNG per litre is Rs 70.00\n");
+    printf("How much pounds of CNG you want\n");
+    printf("\n\n");
+    scanf("%d",&g);
+    f=g*70.00;
+    printf("\n");
+    printf("Your Bill is %d\n",f);
+    printf("\n");
+    printf("How would you like to pay\n");
+    printf("press 1 for CASH\n press 2 for CARD\n");
+    scanf("%d",&h);
+    if(h==1)
+    printf("Payment Paid\n Thanks For Coming\n");
+    else if(h==2)
+    {
+        printf("Swipe Your Card\n");
+          printf("ENTER THE PIN: ");
+          scanf("%d",&h);
+        printf("Payment Paid\n");
+        printf("Thanks For Coming\n");
+    }
+    break;
+    case 4:printf("price for to fill the air for one tyre is Rs 30.00\n");
+    printf("How many tyres do you want to fill the air\n");
+    printf("\n\n");
+    scanf("%d",&j);
+    k=j*30.00;
+    printf("\n");
+    printf("Your Bill is %d\n",k);
+    printf("\n");
+    printf("How would You like to pay\n");
+    printf("press 1 for cash\n press 2 for card\n");
+    scanf("%d",&l);
+    if(l==1)
+    
+    printf("payment successful\n Thanks For Coming\n");
+    else if(l==2)
+    {
+        printf("swipe Your card\n");
+        printf("ENTER THE PIN:");
+        scanf("%d",&l);
+        printf("Payment Successful\n");
+        printf("Thanks For coming\n");
+    }
+        break;
+        case 5:printf("price for service to is Rs 100\n");
+        m=1*100;
+        printf("Your Bill is %d\n",m);
+    printf("\n");
+    printf("How would you like to pay\n");
+    printf("press 1 for CASH\n press 2 for CARD\n");
+    scanf("%d",&h);
+    if(h==1)
+    printf("Payment Paid\n Thanks For Coming\n");
+    else if(h==2)
+    {
+        printf("Swipe Your Card\n");
+          printf("ENTER THE PIN: ");
+          scanf("%d",&h);
+        printf("Payment Paid\n");
+        printf("Thanks For Coming\n");
+    }
+        break;
+}
+}
+
+
+
+    
