@@ -10,7 +10,7 @@ Step 4: case 1- To refil the petrol
 #include<stdio.h>
 int main(){
 printf("\t  Petrol Pump\n");
-printf("\t ");
+printf("======================================\t ");
 printf("\n \n\n");
 printf("\n");
 int a,b,c,d,e,f,g,h,i,j,k,l,m;
