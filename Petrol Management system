@@ -32,7 +32,7 @@ printf("How much litre You Want?  = ");
 scanf("%d",&b);
 c=b*75.00;
 printf("\n");
-printf("Your Bill is = %d\n",c);
+printf("Your Bill is =RS. %d\n",c);
 printf("\n");
 printf("How Would you like to pay?\n");
 printf("*PRESS 1 for CASH\n");
@@ -60,7 +60,7 @@ else if(d==2){
     scanf("%d",&c);
     i=c*90.00;
     printf("\n");
-    printf("Your Bill Is = %d\n",i);
+    printf("Your Bill Is = RS.%d\n",i);
     printf("\n");
     printf("How Would You Like To Pay ? \n");
     printf("*Press 1 for CASH\n *Press 2 for CARD\n");
@@ -82,7 +82,7 @@ else if(d==2){
     scanf("%d",&g);
     f=g*70.00;
     printf("\n");
-    printf("Your Bill is = %d\n",f);
+    printf("Your Bill is = RS.%d\n",f);
     printf("\n");
     printf("How would you like to pay?\n");
     printf("press 1 for CASH\n press 2 for CARD\n");
@@ -104,7 +104,7 @@ else if(d==2){
     scanf("%d",&j);
     k=j*30.00;
     printf("\n");
-    printf("Your Bill is = %d\n",k);
+    printf("Your Bill is = RS.%d\n",k);
     printf("\n");
     printf("How would You like to pay?n");
     printf("Press 1 for cash\n Press 2 for card\n");
@@ -123,7 +123,7 @@ else if(d==2){
         break;
         case 5:printf("Price for service = Rs 100\n");
         m=1*100;
-        printf("Your Bill is = %d\n",m);
+        printf("Your Bill is =RS. %d\n",m);
     printf("\n");
     printf("How would you like to pay?\n");
     printf("Press 1 for CASH\n Press 2 for CARD\n");
